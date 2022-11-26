@@ -1,0 +1,69 @@
+.contenedor {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(206, 206, 206);
+    font-size: 15px;
+}
+.hijo {
+    width: 550px;
+    height: 450px;
+    background: linear-gradient(  rgb(125, 125, 125),black);
+    text-align: center;
+    position: absolute;
+    border-radius: 10%;
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #238cc4;
+    box-shadow: 0px 15px 20px rgba(46, 80, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+body {
+    height: 800px;
+    background-image: url("gym.jpeg");
+    background-size: cover;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 45px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
