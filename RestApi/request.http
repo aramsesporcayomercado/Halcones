@@ -1,0 +1,58 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+GET http://localhost:9000/instructores HTTP/1.1
+
+###
+POST  http://localhost:9000/instructores HTTP/1.1
+Content-Type:  application/json
+
+{
+    "nombre":"ramses",
+    "apellidos":"mercado",
+    "fec_nac":"7/09/2002",
+    "genero":"hombre",
+    "email":"arathmercado2417@gmail.com",
+    "password":"456",
+    "rol":"instructor",
+    "estado":"activo"
+}
+
+
+###
+GET http://localhost:9000/api/11 HTTP/1.1
+
+###
+POST  http://localhost:9000/api HTTP/1.1
+Content-Type:  application/json
+
+
+{
+    "nombre":"carolina",
+    "apellidos":"bonilla",
+    "fec_nac":"12/06/2002",
+    "genero":"mujer",
+    "email":"caro",
+    "password":"456",
+    "rol":"instructora",
+    "estado":"activo"
+}
+
+###
+DELETE http://localhost:9000/api/12 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/14 HTTP/1.1
+Content-Type:  application/json
+
+{
+    "nombre":"Ramses",
+    "apellidos":"Mercado",
+    "fec_nac":"7/09/2002",
+    "genero":"hombre",
+    "email":"arathmercado2417@gmail.com",
+    "password":"456",
+    "rol":"instructor",
+    "estado":"inactivo"
+}
